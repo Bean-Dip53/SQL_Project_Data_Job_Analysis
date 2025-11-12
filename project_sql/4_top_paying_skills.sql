@@ -27,9 +27,9 @@ LIMIT 25
 
 /*
 Here's a breakdown of the results for top paying skills
-- High demand for Big Data & ML Skills: Top salaries
-- Software development & Deploymnet Proficiency: Know
-- Cloud computing Expertise: Family with cloud 
+- High demand for Big Data & ML Skills: Top salaries are commanded by analysts skiled in big data technologies (Psyspark, Couchbase), machine learning tools (DataRobot,Jupyter), and Python libraries (Panda,NumPy), reflecting the industry's high valuation processing and predictive modeling capabilities.
+- Software development & Deploymnet Proficiency: Knowledge in development and development (github, Kubernetes, Airflow) Indicates a lucrative crossover between data analysis and engineering, with a premium on skills that facilitate automation and effecient data pipline managment.
+- Cloud computing Expertise: Familiarity with cloud and data engineering tools (Elasticsearch, Databricks, GCP) underscores the growing importance of cloud-based analystics enviornemts, suggesting that cloud proficiency boots earning potential in data analytics.
 
 [
   {

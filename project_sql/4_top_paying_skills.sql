@@ -9,12 +9,9 @@ Question: what are the top skills based on salary?
 SELECT
     skills_dim.skills,
     ROUND (AVG (salary_year_avg), 00) AS average_salary
-FROM 
-    job_postings_fact AS job_postings
-INNER JOIN skills_job_dim 
-    ON job_postings.job_id = skills_job_dim.job_id
-INNER JOIN skills_dim 
-    ON skills_job_dim.skill_id = skills_dim.skill_id
+FROM job_postings_fact AS job_postings
+INNER JOIN skills_job_dim ON job_postings.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_postings.job_title_short = 'Data Analyst'
     AND salary_year_avg Is NOT NULL
